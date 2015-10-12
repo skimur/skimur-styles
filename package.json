@@ -1,0 +1,13 @@
+{
+  "name": "skimur-styles",
+  "version": "1.0.0",
+  "description": "The styles for Skimur",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skimur/skimur-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skimur/skimur-styles/issues"
+  },
+  "homepage": "https://github.com/skimur/skimur-styles#readme"
+}
