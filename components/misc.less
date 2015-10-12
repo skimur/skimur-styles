@@ -1,0 +1,76 @@
+﻿.list-pager {
+    .pager;
+
+    @media (min-width: @screen-sm-min) {
+        text-align: left;
+    }
+}
+
+.table.vertically-centered {
+    > thead, tbody {
+        > tr {
+            > th, td {
+                vertical-align: middle !important;
+            }
+        }
+    }
+}
+
+.report-form {
+    .types {
+        margin-bottom: 15px;
+
+        .type {
+            text-align: left;
+        }
+
+        .btn-group-vertical {
+            display: block;
+            /*large*/
+            @media (min-width: @screen-lg-min) {
+                display: inline-block;
+                width: 500px;
+            }
+        }
+    }
+}
+
+.permissions {
+    .permission {
+        display: block;
+
+        &.disabled {
+            color: lighten(@gray, 40%);
+        }
+
+        input[type="checkbox"][disabled] {
+            cursor: inherit;
+        }
+    }
+
+    hr {
+        margin: 0 0 5px 0;
+    }
+}
+
+.permission-modal {
+    .modal-dialog {
+        width: 300px;
+    }
+}
+
+.mirror.reddit {
+    .fa;
+    .fa-mixin-icon(reddit);
+}
+
+span.nsfw {
+    .alert;
+    .alert-danger;
+    padding:2px;
+    font-weight:bold;
+}
+
+.btn.loading {
+    cursor:progress;
+}

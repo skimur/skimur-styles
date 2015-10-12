@@ -1,0 +1,37 @@
+﻿.message {
+    &.message-unread {
+        background: @gray-lighter;
+
+        .disc-body {
+            .disc-main {
+                .disc-options {
+                    > li.mark-unread {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    &.message-read {
+        .disc-body {
+            .disc-main {
+                .disc-options {
+                    > li.mark-read {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .message-header {
+        span {
+            font-weight:bold;
+        }
+        a {
+            font-style:italic;
+        }
+        margin-bottom:5px;
+    }
+}
